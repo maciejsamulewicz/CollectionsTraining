@@ -28,15 +28,15 @@ public class User {
 		try {
 
 			System.out.println("Podaj imiê u¿ytkownika: ");
+			System.out.println();
 			firstName = sc.nextLine();
-			sc.nextLine();
 			System.out.println("Podaj nazwisko u¿ytkownika: ");
 			lastName = sc.nextLine();
 			System.out.println("Podaj kraj, z którego pochodzi u¿ytkownik: ");
 			country = sc.nextLine();
 			System.out.println("Podaj wiek u¿ytkownika: ");
 			age = sc.nextInt();
-
+			sc.nextLine();
 		} catch (NoSuchElementException | IllegalStateException e) {
 
 			System.err.println("NoSuchElementException");
