@@ -34,18 +34,21 @@ public class Main {
 				System.out.println(arrayLista);
 				break;
 			case 3:
-				linkedLista.add(i.addUser());
+				System.out.println("ArrayLista zawiera " + arrayLista.size()+ " u¿ytkowników");
 				break;
 			case 4:
-				System.out.println(linkedLista);
+				linkedLista.add(i.addUser());
 				break;
 			case 5:
-				treeSet.add(i.addUser());
+				System.out.println(linkedLista);
 				break;
 			case 6:
-				System.out.println(treeSet);
+				treeSet.add(i.addUser());
 				break;
 			case 7:
+				System.out.println(treeSet);
+				break;
+			case 8:
 				
 			case 0:
 				System.out.println("Dziêkujemy za skorzystanie z programu, do zobaczenia! ");

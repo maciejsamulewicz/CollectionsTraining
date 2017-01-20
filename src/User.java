@@ -28,7 +28,6 @@ public class User {
 		try {
 
 			System.out.println("Podaj imiê u¿ytkownika: ");
-			System.out.println();
 			firstName = sc.nextLine();
 			System.out.println("Podaj nazwisko u¿ytkownika: ");
 			lastName = sc.nextLine();
